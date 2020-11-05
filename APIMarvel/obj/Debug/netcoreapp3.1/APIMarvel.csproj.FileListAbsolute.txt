@@ -28,8 +28,6 @@ C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\bin\Debug\netcoreapp3.1\System.
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.csprojAssemblyReference.cache
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.AssemblyInfoInputs.cache
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.AssemblyInfo.cs
-C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.csproj.CoreCompileInputs.cache
-C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.RazorTargetAssemblyInfo.cache
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.csproj.CopyComplete
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\staticwebassets\APIMarvel.StaticWebAssets.Manifest.cache
@@ -37,3 +35,5 @@ C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\staticw
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.dll
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.pdb
 C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.genruntimeconfig.cache
+C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.csproj.CoreCompileInputs.cache
+C:\Users\Win10\Documents\API\APIMarvel\APIMarvel\obj\Debug\netcoreapp3.1\APIMarvel.MvcApplicationPartsAssemblyInfo.cache

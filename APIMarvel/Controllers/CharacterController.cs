@@ -6,6 +6,7 @@ using APIMarvel.Model.Series;
 using APIMarvel.Model.Stories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -28,6 +29,9 @@ namespace APIMarvel.Controllers
                                                     .Include(x => x.Stories)
                                                     .FirstOrDefaultAsync();
 
+            if (character == null)
+                throw new ArgumentException("Register Not Found");
+
             return character;
         }
 
@@ -42,6 +46,9 @@ namespace APIMarvel.Controllers
                                                      .Include(x => x.Stories)
                                                      .ToListAsync();
 
+            if (characters.Count() < 1)
+                throw new ArgumentException("Register Not Found");
+
             return characters;
         }
 
@@ -52,6 +59,9 @@ namespace APIMarvel.Controllers
             var comics = await context.Comics.AsNoTracking()
                                              .Where(x => x.CharacterId == id)
                                              .ToListAsync();
+
+            if (comics.Count() < 1)
+                throw new ArgumentException("Register Not Found");
 
             return comics;
         }
@@ -64,6 +74,9 @@ namespace APIMarvel.Controllers
                                              .Where(x => x.CharacterId == id)
                                              .ToListAsync();
 
+            if (events.Count() < 1)
+                throw new ArgumentException("Register Not Found");
+
             return events;
         }
 
@@ -75,6 +88,9 @@ namespace APIMarvel.Controllers
                                              .Where(x => x.CharacterId == id)
                                              .ToListAsync();
 
+            if (series.Count() < 1)
+                throw new ArgumentException("Register Not Found");
+
             return series;
         }
 
@@ -85,6 +101,9 @@ namespace APIMarvel.Controllers
             var stories = await context.Stories.AsNoTracking()
                                                .Where(x => x.CharacterId == id)
                                                .ToListAsync();
+
+            if (stories.Count() < 1)
+                throw new ArgumentException("Register Not Found");
 
             return stories;
         }
