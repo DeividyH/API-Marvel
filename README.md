@@ -2,7 +2,7 @@
  API-Marvel
 
 # REQUIREMENTS 
-1 - IIS -> https://www.microsoft.com/pt-BR/download/details.aspx?id=48264
+1 - IIS -> https://www.microsoft.com/pt-BR/download/details.aspx?id=48264 </b>
 2 - WEB PLATFORM -> https://www.microsoft.com/web/downloads/platform.aspx
 3 - Within the Web platform install ASP.NET 4.5
 4 - ENTITY FRAMEWORK RUNTIME -> https://dotnet.microsoft.com/download/dotnet-framework/net48 
