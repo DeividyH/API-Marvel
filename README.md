@@ -1,12 +1,12 @@
 # API-Marvel
  API-Marvel
 
-# REQUIREMENTS 
+# REQUIREMENTS RUN LOCAL
 1 - IIS -> https://www.microsoft.com/pt-BR/download/details.aspx?id=48264 </br>
 2 - WEB PLATFORM -> https://www.microsoft.com/web/downloads/platform.aspx </br>
 3 - Within the Web platform install ASP.NET 4.5 </br>
-4 - ENTITY FRAMEWORK RUNTIME -> https://dotnet.microsoft.com/download/dotnet-framework/net48  </br>
-5 - NET CORE 3.1.1 RUNTIME -> https://dotnet.microsoft.com/download/dotnet-core/current/runtime </br>
+4 - ENTITY FRAMEWORK SDK </br>
+5 - NET CORE 3.1.1 SDK </br>
 
 # RUN
 For execution test go to APIMarcel/bin/release/netcoreapp3.1/publish/APIMarvel.exe.
