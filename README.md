@@ -7,6 +7,7 @@
 3 - Within the Web platform install ASP.NET 4.5 </br>
 4 - ENTITY FRAMEWORK SDK </br>
 5 - NET CORE 3.1.1 SDK </br>
+6 - VISUAL STUDIO 
 
 # RUN
 For execution test go to APIMarcel/bin/release/netcoreapp3.1/publish/APIMarvel.exe.
