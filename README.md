@@ -1,5 +1,5 @@
 # API-Marvel DOT.NET
- API-Marvel
+ API-Marvel  Using  Entity-Framework-in-Memory
 
 # REQUIREMENTS RUN LOCAL
 1 - IIS -> https://www.microsoft.com/pt-BR/download/details.aspx?id=48264 </br>
